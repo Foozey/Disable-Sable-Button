@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "com.fooze.disablesablebutton.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [],
+  "client": [
+    "LinearLayoutMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
